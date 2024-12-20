@@ -1,0 +1,30 @@
+FAULT DETECTED at 2024-11-16 12:17:30 PM - CPU Usage: 20.0%
+FAULT DETECTED at 2024-11-16 12:21:01 PM - CPU Usage: 15.9%
+FAULT DETECTED at 2024-11-16 04:17:04 PM - CPU Usage: 28.0%
+Error: Incorrect number of arguments.
+Usage: ./test.sh <duration_in_minutes>
+Error: Incorrect number of arguments.
+Usage: ./test.sh <duration_in_minutes>
+Error: Incorrect number of arguments.
+Usage: ./test.sh <duration_in_minutes>
+Error: Incorrect number of arguments.
+Usage: ./test.sh <duration_in_minutes>
+Error: Incorrect number of arguments.
+Usage: ./test.sh <duration_in_minutes>
+Error: Incorrect number of arguments.
+Usage: ./test.sh <duration_in_minutes>
+Error: Incorrect number of arguments.
+Usage: ./test.sh <duration_in_minutes>
+Error: Incorrect number of arguments. Usage: ./test.sh <duration_in_minutes>
+2024-11-17 08:34:09 AM - Error: Invalid or missing argument. Please provide an integer for the number of minutes.
+[2024-11-18 07:24:47] Error starting TMUX session: Command '['tmux', 'new-session', '-d', '-s', 'UserInstructions', "echo '\nTo run the fault prediction program:\n    python faultPrediction.py &\n\nTo view logs:\n    cd ../logs\n    cat, head (first 10 lines), or tail (last 10 lines) system.log or error.log\n\nTo inspect raw data or processed data:\n    cd ../data\n    cat rawData.txt or processedData.csv\n\nTo view the logistic regression graph:\n    xdg-open resourceUsageGraph.png\n' | less"]' returned non-zero exit status 1.
+[2024-11-18 07:28:36] Error starting TMUX session: Command '['tmux', 'new-session', '-d', '-s', 'UserInstructions', "echo '\nTo run the fault prediction program:\n    python faultPrediction.py &\n\nTo view logs:\n    cd ../logs\n    cat, head (first 10 lines), or tail (last 10 lines) system.log or error.log\n\nTo inspect raw data or processed data:\n    cd ../data\n    cat rawData.txt or processedData.csv\n\nTo view the logistic regression graph:\n    xdg-open resourceUsageGraph.png\n' | less"]' returned non-zero exit status 1.
+[2024-11-18 07:34:33] Error starting TMUX session: Command '['tmux', 'attach-session', '-t', 'UserInstructions']' returned non-zero exit status 1.
+[2024-11-18 07:39:48] Error starting TMUX session: Command '['tmux', 'attach-session', '-t', 'UserInstructions']' returned non-zero exit status 1.
+[2024-11-18 07:40:42] Error starting TMUX session: Command '['tmux', 'attach-session', '-t', 'UserInstructions']' returned non-zero exit status 1.
+[2024-11-18 07:41:49] Error starting TMUX session: Command '['tmux', 'attach-session', '-t', 'UserInstructions']' returned non-zero exit status 1.
+[2024-11-18 07:48:40] An unexpected error occurred with TMUX: Failed to attach to TMUX session: open terminal failed: not a terminal
+
+[2024-11-18 08:36:16] Error starting TMUX session: Command '['tmux', 'attach-session', '-t', 'UserInstructions']' returned non-zero exit status 1.
+[2024-11-18 09:05:28 AM] FAULT DETECTED - CPU Usage: 8.4%
+[2024-11-24 03:19:11 PM] FAULT DETECTED - CPU Usage: 37.1%

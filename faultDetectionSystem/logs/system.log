@@ -1,0 +1,597 @@
+2024-11-17 01:49:34 PM Data collection started at 2024-11-17 01:49:34 PM for 2 minute(s).
+2024-11-17 01:49:45 PM Data collection started at 2024-11-17 01:49:45 PM for 2 minute(s).
+2024-11-17 01:51:46 PM Data collection ended at 2024-11-17 01:51:46 PM
+2024-11-17 01:51:46 PM Data collection has ended for 2 minute(s).
+2024-11-17 01:51:46 PM No errors detected. Running dataProcess.pl in the background.
+2024-11-17 02:00:59 PM Data collection started at 2024-11-17 02:00:59 PM for 2 minute(s).
+2024-11-17 02:03:00 PM Data collection ended at 2024-11-17 02:03:00 PM
+2024-11-17 02:03:00 PM No errors detected. Running processData.pl.
+2024-11-17 02:19:23 PM Data collection started at 2024-11-17 02:19:23 PM for 100 minute(s).
+[Sun Nov 17 14:22:32 2024] Ensured processed data directory exists.
+[Sun Nov 17 14:22:32 2024] Created processed data file with header.
+[Sun Nov 17 14:22:32 2024] Validated raw data file exists and is not empty.
+[Sun Nov 17 14:22:32 2024] Processed data saved to ../data/processedData.csv.
+[Sun Nov 17 14:22:32 2024] Running modelTraining.py in the background.
+[Sun Nov 17 14:34:27 2024] Ensured processed data directory exists.
+[Sun Nov 17 14:34:27 2024] Created processed data file with header.
+[Sun Nov 17 14:34:27 2024] Validated raw data file exists and is not empty.
+[Sun Nov 17 14:34:27 2024] Processed data saved to ../data/processedData.csv.
+[Sun Nov 17 14:34:27 2024] Running modelTraining.py in the background.
+[Sun Nov 17 15:00:43 2024] Ensured processed data directory exists.
+[Sun Nov 17 15:00:43 2024] Created processed data file with header.
+[Sun Nov 17 15:00:43 2024] Validated raw data file exists and is not empty.
+[Sun Nov 17 15:00:43 2024] Processed data saved to ../data/processedData.csv.
+[Sun Nov 17 15:00:43 2024] Running modelTraining.py in the background.
+[Sun Nov 17 15:01:08 2024] Ensured processed data directory exists.
+[Sun Nov 17 15:01:08 2024] Created processed data file with header.
+[Sun Nov 17 15:01:08 2024] Validated raw data file exists and is not empty.
+[Sun Nov 17 15:01:08 2024] Processed data saved to ../data/processedData.csv.
+[Sun Nov 17 15:01:08 2024] Running modelTraining.py in the background.
+[Sun Nov 17 15:01:34 2024] Ensured processed data directory exists.
+[Sun Nov 17 15:01:34 2024] Created processed data file with header.
+[Sun Nov 17 15:01:34 2024] Validated raw data file exists and is not empty.
+[Sun Nov 17 15:01:34 2024] Processed data saved to ../data/processedData.csv.
+[Sun Nov 17 15:01:34 2024] Running modelTraining.py in the background.
+2024-11-17 03:59:47 PM Data collection ended at 2024-11-17 03:59:47 PM
+2024-11-17 03:59:47 PM No errors detected. Running processData.pl.
+[Sun Nov 17 15:59:47 2024] Ensured processed data directory exists.
+[Sun Nov 17 15:59:47 2024] Created processed data file with header.
+[Sun Nov 17 15:59:47 2024] Validated raw data file exists and is not empty.
+[Sun Nov 17 15:59:47 2024] Processed data saved to ../data/processedData.csv.
+[Sun Nov 17 15:59:47 2024] Running modelTraining.py in the background.
+[Mon Nov 18 06:36:07 2024] Ensured processed data directory exists.
+[Mon Nov 18 06:36:07 2024] Created processed data file with header.
+[Mon Nov 18 06:36:07 2024] Validated raw data file exists and is not empty.
+[Mon Nov 18 06:36:07 2024] Processed data saved to ../data/processedData.csv.
+[Mon Nov 18 06:36:07 2024] Running modelTraining.py in the background.
+[Mon Nov 18 06:38:07 2024] Ensured processed data directory exists.
+[Mon Nov 18 06:38:07 2024] Created processed data file with header.
+[Mon Nov 18 06:38:07 2024] Validated raw data file exists and is not empty.
+[Mon Nov 18 06:38:07 2024] Processed data saved to ../data/processedData.csv.
+[Mon Nov 18 06:38:07 2024] Running modelTraining.py in the background.
+[2024-11-18 06:46:45] Model training complete. Accuracy: 100.00%
+[2024-11-18 06:46:45] Classification Report:
+[2024-11-18 06:46:45]               precision    recall  f1-score   support
+
+No Fault (0)       1.00      1.00      1.00        15
+   Fault (1)       1.00      1.00      1.00         5
+
+    accuracy                           1.00        20
+   macro avg       1.00      1.00      1.00        20
+weighted avg       1.00      1.00      1.00        20
+
+[2024-11-18 06:46:45] Trained model has been saved to ../scripts/faultDetectionModel.pkl
+[2024-11-18 06:46:45] Average CPU Usage for Faults (1): 12.93%
+[2024-11-18 06:46:45] Average CPU Usage for Non-Faults (0): 2.53%
+[2024-11-18 06:46:45] Successfully started generateResourceUsageGraph.py in the background.
+[2024-11-18 07:19:29] Model training complete. Accuracy: 100.00%
+[2024-11-18 07:19:29] Classification Report:
+[2024-11-18 07:19:29]               precision    recall  f1-score   support
+
+No Fault (0)       1.00      1.00      1.00        15
+   Fault (1)       1.00      1.00      1.00         5
+
+    accuracy                           1.00        20
+   macro avg       1.00      1.00      1.00        20
+weighted avg       1.00      1.00      1.00        20
+
+[2024-11-18 07:19:29] Trained model has been saved to ../scripts/faultDetectionModel.pkl
+[2024-11-18 07:19:29] Average CPU Usage for Faults (1): 12.93%
+[2024-11-18 07:19:29] Average CPU Usage for Non-Faults (0): 2.53%
+[2024-11-18 07:19:29] Successfully started generateResourceUsageGraph.py in the background.
+[2024-11-18 07:21:23] Processed data file found.
+[2024-11-18 07:21:23] Data loaded successfully from processedData.csv.
+[2024-11-18 07:21:23] Graph saved successfully at ../data/resourceUsageGraph.png.
+[2024-11-18 07:21:23] Started TMUX session with user instructions.
+[Mon Nov 18 07:23:17 2024] Ensured processed data directory exists.
+[Mon Nov 18 07:23:17 2024] Created processed data file with header.
+[Mon Nov 18 07:23:17 2024] Validated raw data file exists and is not empty.
+[Mon Nov 18 07:23:17 2024] Processed data saved to ../data/processedData.csv.
+[Mon Nov 18 07:23:17 2024] Running modelTraining.py in the background.
+[2024-11-18 07:23:18] Model training complete. Accuracy: 100.00%
+[2024-11-18 07:23:18] Classification Report:
+[2024-11-18 07:23:18]               precision    recall  f1-score   support
+
+No Fault (0)       1.00      1.00      1.00        15
+   Fault (1)       1.00      1.00      1.00         5
+
+    accuracy                           1.00        20
+   macro avg       1.00      1.00      1.00        20
+weighted avg       1.00      1.00      1.00        20
+
+[2024-11-18 07:23:18] Trained model has been saved to ../scripts/faultDetectionModel.pkl
+[2024-11-18 07:23:18] Average CPU Usage for Faults (1): 12.93%
+[2024-11-18 07:23:18] Average CPU Usage for Non-Faults (0): 2.53%
+[2024-11-18 07:23:18] Successfully started generateResourceUsageGraph.py in the background.
+[2024-11-18 07:24:47] Processed data file found.
+[2024-11-18 07:24:47] Data loaded successfully from processedData.csv.
+[2024-11-18 07:24:47] Graph saved successfully at ../data/resourceUsageGraph.png.
+[2024-11-18 07:24:47] Graph details: ../data/resourceUsageGraph.png
+[2024-11-18 07:28:36] Processed data file found.
+[2024-11-18 07:28:36] Data loaded successfully from processedData.csv.
+[2024-11-18 07:28:36] Graph saved successfully at ../data/resourceUsageGraph.png.
+[2024-11-18 07:28:36] Graph details logged at ../logs/system.log.
+[2024-11-18 07:28:36] Error starting TMUX session: Command '['tmux', 'new-session', '-d', '-s', 'UserInstructions', "echo '\nTo run the fault prediction program:\n    python faultPrediction.py &\n\nTo view logs:\n    cd ../logs\n    cat, head (first 10 lines), or tail (last 10 lines) system.log or error.log\n\nTo inspect raw data or processed data:\n    cd ../data\n    cat rawData.txt or processedData.csv\n\nTo view the logistic regression graph:\n    xdg-open resourceUsageGraph.png\n' | less"]' returned non-zero exit status 1.
+[2024-11-18 07:31:47] Processed data file found.
+[2024-11-18 07:31:47] Data loaded successfully from processedData.csv.
+[2024-11-18 07:31:47] Graph saved successfully at ../data/resourceUsageGraph.png.
+[2024-11-18 07:31:47] Graph details logged at ../logs/system.log.
+[Mon Nov 18 07:34:31 2024] Ensured processed data directory exists.
+[Mon Nov 18 07:34:31 2024] Created processed data file with header.
+[Mon Nov 18 07:34:31 2024] Validated raw data file exists and is not empty.
+[Mon Nov 18 07:34:31 2024] Processed data saved to ../data/processedData.csv.
+[Mon Nov 18 07:34:31 2024] Running modelTraining.py in the background.
+[2024-11-18 07:34:32] Model training complete. Accuracy: 100.00%
+[2024-11-18 07:34:32] Classification Report:
+[2024-11-18 07:34:32]               precision    recall  f1-score   support
+
+No Fault (0)       1.00      1.00      1.00        15
+   Fault (1)       1.00      1.00      1.00         5
+
+    accuracy                           1.00        20
+   macro avg       1.00      1.00      1.00        20
+weighted avg       1.00      1.00      1.00        20
+
+[2024-11-18 07:34:32] Trained model has been saved to ../scripts/faultDetectionModel.pkl
+[2024-11-18 07:34:32] Average CPU Usage for Faults (1): 12.93%
+[2024-11-18 07:34:32] Average CPU Usage for Non-Faults (0): 2.53%
+[2024-11-18 07:34:32] Successfully started generateResourceUsageGraph.py in the background.
+[2024-11-18 07:34:33] Processed data file found.
+[2024-11-18 07:34:33] Data loaded successfully from processedData.csv.
+[2024-11-18 07:34:33] Graph saved successfully at ../data/resourceUsageGraph.png.
+[2024-11-18 07:34:33] Graph details logged at ../logs/system.log.
+[2024-11-18 07:34:33] Error starting TMUX session: Command '['tmux', 'attach-session', '-t', 'UserInstructions']' returned non-zero exit status 1.
+[2024-11-18 07:37:23] Processed data file found.
+[2024-11-18 07:37:23] Data loaded successfully from processedData.csv.
+[2024-11-18 07:37:23] Graph saved successfully at ../data/resourceUsageGraph.png.
+[2024-11-18 07:37:23] Graph details logged at ../logs/system.log.
+[2024-11-18 07:38:37] Processed data file found.
+[2024-11-18 07:38:37] Data loaded successfully from processedData.csv.
+[2024-11-18 07:38:37] Graph saved successfully at ../data/resourceUsageGraph.png.
+[2024-11-18 07:38:37] Graph details logged at ../logs/system.log.
+[2024-11-18 07:39:17] Processed data file found.
+[2024-11-18 07:39:17] Data loaded successfully from processedData.csv.
+[2024-11-18 07:39:17] Graph saved successfully at ../data/resourceUsageGraph.png.
+[2024-11-18 07:39:17] Graph details logged at ../logs/system.log.
+[2024-11-18 07:39:27] Processed data file found.
+[2024-11-18 07:39:27] Data loaded successfully from processedData.csv.
+[2024-11-18 07:39:27] Graph saved successfully at ../data/resourceUsageGraph.png.
+[2024-11-18 07:39:27] Graph details logged at ../logs/system.log.
+[2024-11-18 07:39:47] Processed data file found.
+[2024-11-18 07:39:47] Data loaded successfully from processedData.csv.
+[2024-11-18 07:39:47] Graph saved successfully at ../data/resourceUsageGraph.png.
+[2024-11-18 07:39:47] Graph details logged at ../logs/system.log.
+[2024-11-18 07:39:48] Error starting TMUX session: Command '['tmux', 'attach-session', '-t', 'UserInstructions']' returned non-zero exit status 1.
+[2024-11-18 07:39:52] Processed data file found.
+[2024-11-18 07:39:52] Data loaded successfully from processedData.csv.
+[2024-11-18 07:39:52] Graph saved successfully at ../data/resourceUsageGraph.png.
+[2024-11-18 07:39:52] Graph details logged at ../logs/system.log.
+[2024-11-18 07:40:29] Processed data file found.
+[2024-11-18 07:40:29] Data loaded successfully from processedData.csv.
+[2024-11-18 07:40:29] Graph saved successfully at ../data/resourceUsageGraph.png.
+[2024-11-18 07:40:29] Graph details logged at ../logs/system.log.
+[2024-11-18 07:40:42] Processed data file found.
+[2024-11-18 07:40:42] Data loaded successfully from processedData.csv.
+[2024-11-18 07:40:42] Graph saved successfully at ../data/resourceUsageGraph.png.
+[2024-11-18 07:40:42] Graph details logged at ../logs/system.log.
+[2024-11-18 07:40:42] Error starting TMUX session: Command '['tmux', 'attach-session', '-t', 'UserInstructions']' returned non-zero exit status 1.
+[2024-11-18 07:40:46] Processed data file found.
+[2024-11-18 07:40:46] Data loaded successfully from processedData.csv.
+[2024-11-18 07:40:46] Graph saved successfully at ../data/resourceUsageGraph.png.
+[2024-11-18 07:40:46] Graph details logged at ../logs/system.log.
+[Mon Nov 18 07:41:47 2024] Ensured processed data directory exists.
+[Mon Nov 18 07:41:47 2024] Created processed data file with header.
+[Mon Nov 18 07:41:47 2024] Validated raw data file exists and is not empty.
+[Mon Nov 18 07:41:47 2024] Processed data saved to ../data/processedData.csv.
+[Mon Nov 18 07:41:47 2024] Running modelTraining.py in the background.
+[2024-11-18 07:41:48] Model training complete. Accuracy: 100.00%
+[2024-11-18 07:41:48] Classification Report:
+[2024-11-18 07:41:48]               precision    recall  f1-score   support
+
+No Fault (0)       1.00      1.00      1.00        15
+   Fault (1)       1.00      1.00      1.00         5
+
+    accuracy                           1.00        20
+   macro avg       1.00      1.00      1.00        20
+weighted avg       1.00      1.00      1.00        20
+
+[2024-11-18 07:41:48] Trained model has been saved to ../scripts/faultDetectionModel.pkl
+[2024-11-18 07:41:48] Average CPU Usage for Faults (1): 12.93%
+[2024-11-18 07:41:48] Average CPU Usage for Non-Faults (0): 2.53%
+[2024-11-18 07:41:48] Successfully started generateResourceUsageGraph.py in the background.
+[2024-11-18 07:41:49] Processed data file found.
+[2024-11-18 07:41:49] Data loaded successfully from processedData.csv.
+[2024-11-18 07:41:49] Graph saved successfully at ../data/resourceUsageGraph.png.
+[2024-11-18 07:41:49] Graph details logged at ../logs/system.log.
+[2024-11-18 07:41:49] Error starting TMUX session: Command '['tmux', 'attach-session', '-t', 'UserInstructions']' returned non-zero exit status 1.
+[Mon Nov 18 07:48:38 2024] Ensured processed data directory exists.
+[Mon Nov 18 07:48:38 2024] Created processed data file with header.
+[Mon Nov 18 07:48:38 2024] Validated raw data file exists and is not empty.
+[Mon Nov 18 07:48:38 2024] Processed data saved to ../data/processedData.csv.
+[Mon Nov 18 07:48:38 2024] Running modelTraining.py in the background.
+[2024-11-18 07:48:39] Model training complete. Accuracy: 100.00%
+[2024-11-18 07:48:39] Classification Report:
+[2024-11-18 07:48:39]               precision    recall  f1-score   support
+
+No Fault (0)       1.00      1.00      1.00        15
+   Fault (1)       1.00      1.00      1.00         5
+
+    accuracy                           1.00        20
+   macro avg       1.00      1.00      1.00        20
+weighted avg       1.00      1.00      1.00        20
+
+[2024-11-18 07:48:39] Trained model has been saved to ../scripts/faultDetectionModel.pkl
+[2024-11-18 07:48:39] Average CPU Usage for Faults (1): 12.93%
+[2024-11-18 07:48:39] Average CPU Usage for Non-Faults (0): 2.53%
+[2024-11-18 07:48:39] Successfully started generateResourceUsageGraph.py in the background.
+[2024-11-18 07:48:40] Graph saved successfully at ../data/resourceUsageGraph.png
+[2024-11-18 08:28:51] Processed data file found.
+[2024-11-18 08:28:51] Data loaded successfully from processedData.csv.
+[2024-11-18 08:28:51] Graph saved successfully at ../data/resourceUsageGraph.png.
+[2024-11-18 08:28:51] Graph details logged at ../logs/system.log.
+[Mon Nov 18 08:31:45 2024] Ensured processed data directory exists.
+[Mon Nov 18 08:31:45 2024] Created processed data file with header.
+[Mon Nov 18 08:31:45 2024] Validated raw data file exists and is not empty.
+[Mon Nov 18 08:31:45 2024] Processed data saved to ../data/processedData.csv.
+[Mon Nov 18 08:31:45 2024] Running modelTraining.py in the background.
+[2024-11-18 08:31:46] Model training complete. Accuracy: 100.00%
+[2024-11-18 08:31:46] Classification Report:
+[2024-11-18 08:31:46]               precision    recall  f1-score   support
+
+No Fault (0)       1.00      1.00      1.00        15
+   Fault (1)       1.00      1.00      1.00         5
+
+    accuracy                           1.00        20
+   macro avg       1.00      1.00      1.00        20
+weighted avg       1.00      1.00      1.00        20
+
+[2024-11-18 08:31:46] Trained model has been saved to ../scripts/faultDetectionModel.pkl
+[2024-11-18 08:31:46] Average CPU Usage for Faults (1): 12.93%
+[2024-11-18 08:31:46] Average CPU Usage for Non-Faults (0): 2.53%
+[2024-11-18 08:31:46] Successfully started generateResourceUsageGraph.py in the background.
+[2024-11-18 08:31:48] Graph saved successfully at ../data/resourceUsageGraph.png
+[Mon Nov 18 08:32:29 2024] Ensured processed data directory exists.
+[Mon Nov 18 08:32:29 2024] Created processed data file with header.
+[Mon Nov 18 08:32:29 2024] Validated raw data file exists and is not empty.
+[Mon Nov 18 08:32:29 2024] Processed data saved to ../data/processedData.csv.
+[Mon Nov 18 08:32:29 2024] Running modelTraining.py in the background.
+[2024-11-18 08:32:29] Model training complete. Accuracy: 100.00%
+[2024-11-18 08:32:29] Classification Report:
+[2024-11-18 08:32:29]               precision    recall  f1-score   support
+
+No Fault (0)       1.00      1.00      1.00        15
+   Fault (1)       1.00      1.00      1.00         5
+
+    accuracy                           1.00        20
+   macro avg       1.00      1.00      1.00        20
+weighted avg       1.00      1.00      1.00        20
+
+[2024-11-18 08:32:29] Trained model has been saved to ../scripts/faultDetectionModel.pkl
+[2024-11-18 08:32:29] Average CPU Usage for Faults (1): 12.93%
+[2024-11-18 08:32:29] Average CPU Usage for Non-Faults (0): 2.53%
+[2024-11-18 08:32:29] Successfully started generateResourceUsageGraph.py in the background.
+[2024-11-18 08:32:31] Graph saved successfully at ../data/resourceUsageGraph.png
+[Mon Nov 18 08:36:14 2024] Ensured processed data directory exists.
+[Mon Nov 18 08:36:14 2024] Created processed data file with header.
+[Mon Nov 18 08:36:14 2024] Validated raw data file exists and is not empty.
+[Mon Nov 18 08:36:14 2024] Processed data saved to ../data/processedData.csv.
+[Mon Nov 18 08:36:14 2024] Running modelTraining.py in the background.
+[2024-11-18 08:36:15] Model training complete. Accuracy: 100.00%
+[2024-11-18 08:36:15] Classification Report:
+[2024-11-18 08:36:15]               precision    recall  f1-score   support
+
+No Fault (0)       1.00      1.00      1.00        15
+   Fault (1)       1.00      1.00      1.00         5
+
+    accuracy                           1.00        20
+   macro avg       1.00      1.00      1.00        20
+weighted avg       1.00      1.00      1.00        20
+
+[2024-11-18 08:36:15] Trained model has been saved to ../scripts/faultDetectionModel.pkl
+[2024-11-18 08:36:15] Average CPU Usage for Faults (1): 12.93%
+[2024-11-18 08:36:15] Average CPU Usage for Non-Faults (0): 2.53%
+[2024-11-18 08:36:15] Successfully started generateResourceUsageGraph.py in the background.
+[2024-11-18 08:36:16] Processed data file found.
+[2024-11-18 08:36:16] Data loaded successfully from processedData.csv.
+[2024-11-18 08:36:16] Graph saved successfully at ../data/resourceUsageGraph.png.
+[2024-11-18 08:36:16] Graph details logged at ../logs/system.log.
+[2024-11-18 08:36:16] Error starting TMUX session: Command '['tmux', 'attach-session', '-t', 'UserInstructions']' returned non-zero exit status 1.
+[Mon Nov 18 08:36:50 2024] Ensured processed data directory exists.
+[Mon Nov 18 08:36:50 2024] Created processed data file with header.
+[Mon Nov 18 08:36:50 2024] Validated raw data file exists and is not empty.
+[Mon Nov 18 08:36:50 2024] Processed data saved to ../data/processedData.csv.
+[Mon Nov 18 08:36:50 2024] Running modelTraining.py in the background.
+[2024-11-18 08:36:51] Model training complete. Accuracy: 100.00%
+[2024-11-18 08:36:51] Classification Report:
+[2024-11-18 08:36:51]               precision    recall  f1-score   support
+
+No Fault (0)       1.00      1.00      1.00        15
+   Fault (1)       1.00      1.00      1.00         5
+
+    accuracy                           1.00        20
+   macro avg       1.00      1.00      1.00        20
+weighted avg       1.00      1.00      1.00        20
+
+[2024-11-18 08:36:51] Trained model has been saved to ../scripts/faultDetectionModel.pkl
+[2024-11-18 08:36:51] Average CPU Usage for Faults (1): 12.93%
+[2024-11-18 08:36:51] Average CPU Usage for Non-Faults (0): 2.53%
+[2024-11-18 08:36:51] Successfully started generateResourceUsageGraph.py in the background.
+[2024-11-18 08:36:53] Graph saved successfully at ../data/resourceUsageGraph.png
+[Mon Nov 18 08:40:01 2024] Ensured processed data directory exists.
+[Mon Nov 18 08:40:01 2024] Created processed data file with header.
+[Mon Nov 18 08:40:01 2024] Validated raw data file exists and is not empty.
+[Mon Nov 18 08:40:01 2024] Processed data saved to ../data/processedData.csv.
+[Mon Nov 18 08:40:01 2024] Running modelTraining.py in the background.
+[2024-11-18 08:40:03] Model training complete. Accuracy: 100.00%
+[2024-11-18 08:40:03] Classification Report:
+[2024-11-18 08:40:03]               precision    recall  f1-score   support
+
+No Fault (0)       1.00      1.00      1.00        15
+   Fault (1)       1.00      1.00      1.00         5
+
+    accuracy                           1.00        20
+   macro avg       1.00      1.00      1.00        20
+weighted avg       1.00      1.00      1.00        20
+
+[2024-11-18 08:40:03] Trained model has been saved to ../scripts/faultDetectionModel.pkl
+[2024-11-18 08:40:03] Average CPU Usage for Faults (1): 12.93%
+[2024-11-18 08:40:03] Average CPU Usage for Non-Faults (0): 2.53%
+[2024-11-18 08:40:03] Successfully started generateResourceUsageGraph.py in the background.
+[2024-11-18 08:40:04] Graph saved successfully at ../data/resourceUsageGraph.png
+[2024-11-18 08:42:14] Graph saved successfully at ../data/resourceUsageGraph.png
+[Mon Nov 18 08:42:19 2024] Ensured processed data directory exists.
+[Mon Nov 18 08:42:19 2024] Created processed data file with header.
+[Mon Nov 18 08:42:19 2024] Validated raw data file exists and is not empty.
+[Mon Nov 18 08:42:19 2024] Processed data saved to ../data/processedData.csv.
+[Mon Nov 18 08:42:19 2024] Running modelTraining.py in the background.
+[2024-11-18 08:42:20] Model training complete. Accuracy: 100.00%
+[2024-11-18 08:42:20] Classification Report:
+[2024-11-18 08:42:20]               precision    recall  f1-score   support
+
+No Fault (0)       1.00      1.00      1.00        15
+   Fault (1)       1.00      1.00      1.00         5
+
+    accuracy                           1.00        20
+   macro avg       1.00      1.00      1.00        20
+weighted avg       1.00      1.00      1.00        20
+
+[2024-11-18 08:42:20] Trained model has been saved to ../scripts/faultDetectionModel.pkl
+[2024-11-18 08:42:20] Average CPU Usage for Faults (1): 12.93%
+[2024-11-18 08:42:20] Average CPU Usage for Non-Faults (0): 2.53%
+[2024-11-18 08:42:20] Successfully started generateResourceUsageGraph.py in the background.
+[2024-11-18 08:42:22] Graph saved successfully at ../data/resourceUsageGraph.png
+[Mon Nov 18 08:45:07 2024] Ensured processed data directory exists.
+[Mon Nov 18 08:45:07 2024] Created processed data file with header.
+[Mon Nov 18 08:45:07 2024] Validated raw data file exists and is not empty.
+[Mon Nov 18 08:45:07 2024] Processed data saved to ../data/processedData.csv.
+[Mon Nov 18 08:45:07 2024] Running modelTraining.py in the background.
+[2024-11-18 08:45:08] Model training complete. Accuracy: 100.00%
+[2024-11-18 08:45:08] Classification Report:
+[2024-11-18 08:45:08]               precision    recall  f1-score   support
+
+No Fault (0)       1.00      1.00      1.00        15
+   Fault (1)       1.00      1.00      1.00         5
+
+    accuracy                           1.00        20
+   macro avg       1.00      1.00      1.00        20
+weighted avg       1.00      1.00      1.00        20
+
+[2024-11-18 08:45:08] Trained model has been saved to ../scripts/faultDetectionModel.pkl
+[2024-11-18 08:45:08] Average CPU Usage for Faults (1): 12.93%
+[2024-11-18 08:45:08] Average CPU Usage for Non-Faults (0): 2.53%
+[2024-11-18 08:45:10] Graph saved successfully at ../data/resourceUsageGraph.png
+[2024-11-18 08:45:10] Successfully started generateResourceUsageGraph.py in the background.
+Starting fault prediction... Press Ctrl+C to stop.
+[2024-11-18 08:57:11 AM] No fault detected - CPU Usage: 1.6%
+[2024-11-18 08:58:13 AM] No fault detected - CPU Usage: 1.2%
+[Mon Nov 18 09:00:45 2024] Ensured processed data directory exists.
+[Mon Nov 18 09:00:45 2024] Created processed data file with header.
+[Mon Nov 18 09:00:45 2024] Validated raw data file exists and is not empty.
+[Mon Nov 18 09:00:45 2024] Processed data saved to ../data/processedData.csv.
+[Mon Nov 18 09:00:45 2024] Running modelTraining.py in the background.
+[2024-11-18 09:00:46] Model training complete. Accuracy: 100.00%
+[2024-11-18 09:00:46] Classification Report:
+[2024-11-18 09:00:46]               precision    recall  f1-score   support
+
+No Fault (0)       1.00      1.00      1.00        15
+   Fault (1)       1.00      1.00      1.00         5
+
+    accuracy                           1.00        20
+   macro avg       1.00      1.00      1.00        20
+weighted avg       1.00      1.00      1.00        20
+
+[2024-11-18 09:00:46] Trained model has been saved to ../scripts/faultDetectionModel.pkl
+[2024-11-18 09:00:46] Average CPU Usage for Faults (1): 12.93%
+[2024-11-18 09:00:46] Average CPU Usage for Non-Faults (0): 2.53%
+[2024-11-18 09:00:47] Graph saved successfully at ../data/resourceUsageGraph.png
+[2024-11-18 09:00:48] Successfully started generateResourceUsageGraph.py in the background.
+Starting fault prediction... Press Ctrl+C to stop.
+[2024-11-18 09:01:21 AM] No fault detected - CPU Usage: 1.9%
+[2024-11-18 09:02:23 AM] No fault detected - CPU Usage: 1.2%
+[2024-11-18 09:03:24 AM] No fault detected - CPU Usage: 2.7%
+[2024-11-18 09:04:26 AM] No fault detected - CPU Usage: 2.0%
+[2024-11-18 09:05:30 AM] Subprocess './sendMail.sh' completed successfully. Output:
+Email sent successfully.
+[2024-11-18 09:05:31 AM] Subprocess './highCPUProcessKiller' completed successfully. Output:
+This program lists all non-root processes with CPU usage > 5.0% sorted by CPU usage.
+You can choose to kill a process or quit by typing 'q'.
+
+Press 'q' to quit at any time.
+
+No processes with CPU usage > 5.0% found.
+[2024-11-18 09:06:32 AM] No fault detected - CPU Usage: 5.9%
+[2024-11-18 09:07:36 AM] No fault detected - CPU Usage: 0.7%
+[2024-11-18 09:08:37 AM] No fault detected - CPU Usage: 0.0%
+[2024-11-18 09:09:38 AM] No fault detected - CPU Usage: 3.1%
+[2024-11-18 09:10:39 AM] No fault detected - CPU Usage: 0.2%
+[2024-11-18 09:11:40 AM] No fault detected - CPU Usage: 0.3%
+[2024-11-18 09:12:41 AM] No fault detected - CPU Usage: 0.3%
+[2024-11-18 09:13:42 AM] No fault detected - CPU Usage: 0.5%
+[2024-11-18 09:14:43 AM] No fault detected - CPU Usage: 0.8%
+[2024-11-18 09:15:44 AM] No fault detected - CPU Usage: 0.5%
+[2024-11-18 09:16:45 AM] No fault detected - CPU Usage: 0.3%
+[2024-11-18 09:17:46 AM] No fault detected - CPU Usage: 0.5%
+[2024-11-18 09:18:47 AM] No fault detected - CPU Usage: 0.3%
+[2024-11-18 09:19:48 AM] No fault detected - CPU Usage: 0.0%
+[2024-11-18 09:20:49 AM] No fault detected - CPU Usage: 0.3%
+[2024-11-18 09:21:50 AM] No fault detected - CPU Usage: 0.5%
+[2024-11-18 09:22:51 AM] No fault detected - CPU Usage: 0.3%
+[2024-11-18 09:23:52 AM] No fault detected - CPU Usage: 0.5%
+[2024-11-18 09:24:53 AM] No fault detected - CPU Usage: 0.3%
+[2024-11-18 09:25:54 AM] No fault detected - CPU Usage: 0.3%
+[2024-11-18 09:26:55 AM] No fault detected - CPU Usage: 0.3%
+[2024-11-18 09:27:56 AM] No fault detected - CPU Usage: 0.5%
+[2024-11-18 09:28:57 AM] No fault detected - CPU Usage: 0.3%
+[2024-11-18 09:29:58 AM] No fault detected - CPU Usage: 0.0%
+[2024-11-18 09:30:59 AM] No fault detected - CPU Usage: 0.5%
+[2024-11-18 09:32:00 AM] No fault detected - CPU Usage: 0.5%
+[2024-11-18 09:33:01 AM] No fault detected - CPU Usage: 0.8%
+[2024-11-18 09:34:02 AM] No fault detected - CPU Usage: 1.0%
+[2024-11-18 09:35:03 AM] No fault detected - CPU Usage: 1.0%
+[2024-11-18 09:36:04 AM] No fault detected - CPU Usage: 0.0%
+[2024-11-18 09:37:05 AM] No fault detected - CPU Usage: 0.5%
+[2024-11-18 09:38:06 AM] No fault detected - CPU Usage: 0.3%
+[2024-11-18 09:39:07 AM] No fault detected - CPU Usage: 0.5%
+[2024-11-18 09:40:08 AM] No fault detected - CPU Usage: 0.3%
+[2024-11-18 09:41:09 AM] No fault detected - CPU Usage: 0.3%
+[2024-11-18 09:42:11 AM] No fault detected - CPU Usage: 0.5%
+[2024-11-18 09:43:12 AM] No fault detected - CPU Usage: 0.0%
+[2024-11-18 09:44:13 AM] No fault detected - CPU Usage: 0.3%
+[2024-11-18 09:45:14 AM] No fault detected - CPU Usage: 0.3%
+[2024-11-18 09:46:15 AM] No fault detected - CPU Usage: 0.5%
+[2024-11-18 09:47:17 AM] No fault detected - CPU Usage: 0.4%
+[2024-11-18 09:48:19 AM] No fault detected - CPU Usage: 0.5%
+[2024-11-18 09:49:21 AM] No fault detected - CPU Usage: 0.3%
+[2024-11-18 09:50:22 AM] No fault detected - CPU Usage: 0.2%
+[2024-11-18 09:51:23 AM] No fault detected - CPU Usage: 0.0%
+[2024-11-18 09:52:24 AM] No fault detected - CPU Usage: 0.0%
+[2024-11-18 09:53:25 AM] No fault detected - CPU Usage: 0.5%
+[2024-11-18 09:54:26 AM] No fault detected - CPU Usage: 0.5%
+[2024-11-18 09:55:27 AM] No fault detected - CPU Usage: 0.3%
+[2024-11-18 09:56:28 AM] No fault detected - CPU Usage: 0.0%
+[2024-11-18 09:57:29 AM] No fault detected - CPU Usage: 0.0%
+[2024-11-18 09:58:30 AM] No fault detected - CPU Usage: 0.2%
+[2024-11-18 09:59:31 AM] No fault detected - CPU Usage: 0.0%
+[2024-11-18 10:00:32 AM] No fault detected - CPU Usage: 0.0%
+[2024-11-18 10:01:33 AM] No fault detected - CPU Usage: 0.3%
+[2024-11-18 10:02:34 AM] No fault detected - CPU Usage: 0.0%
+[2024-11-18 10:03:35 AM] No fault detected - CPU Usage: 0.0%
+[2024-11-18 10:04:36 AM] No fault detected - CPU Usage: 0.0%
+[2024-11-18 10:05:39 AM] No fault detected - CPU Usage: 0.1%
+[2024-11-18 10:06:42 AM] No fault detected - CPU Usage: 0.1%
+[2024-11-18 10:07:44 AM] No fault detected - CPU Usage: 0.1%
+[2024-11-18 10:08:47 AM] No fault detected - CPU Usage: 0.0%
+[2024-11-18 10:09:48 AM] No fault detected - CPU Usage: 0.0%
+[2024-11-18 10:10:51 AM] No fault detected - CPU Usage: 0.1%
+[2024-11-18 10:11:53 AM] No fault detected - CPU Usage: 0.0%
+[2024-11-18 10:12:55 AM] No fault detected - CPU Usage: 0.0%
+[2024-11-18 10:13:57 AM] No fault detected - CPU Usage: 1.5%
+[2024-11-18 10:14:58 AM] No fault detected - CPU Usage: 0.0%
+[Mon Nov 18 10:19:52 2024] Ensured processed data directory exists.
+[Mon Nov 18 10:19:52 2024] Created processed data file with header.
+[Mon Nov 18 10:19:52 2024] Validated raw data file exists and is not empty.
+[Mon Nov 18 10:19:52 2024] Processed data saved to ../data/processedData.csv.
+[Mon Nov 18 10:19:52 2024] Running modelTraining.py in the background.
+[2024-11-18 10:19:54] Model training complete. Accuracy: 100.00%
+[2024-11-18 10:19:54] Classification Report:
+[2024-11-18 10:19:54]               precision    recall  f1-score   support
+
+No Fault (0)       1.00      1.00      1.00        15
+   Fault (1)       1.00      1.00      1.00         5
+
+    accuracy                           1.00        20
+   macro avg       1.00      1.00      1.00        20
+weighted avg       1.00      1.00      1.00        20
+
+[2024-11-18 10:19:54] Trained model has been saved to ../scripts/faultDetectionModel.pkl
+[2024-11-18 10:19:54] Average CPU Usage for Faults (1): 12.93%
+[2024-11-18 10:19:54] Average CPU Usage for Non-Faults (0): 2.53%
+[2024-11-18 10:19:55] Graph saved successfully at ../data/resourceUsageGraph.png
+[2024-11-18 10:19:56] Successfully started generateResourceUsageGraph.py in the background.
+[Sun Nov 24 14:58:11 2024] Ensured processed data directory exists.
+[Sun Nov 24 14:58:11 2024] Created processed data file with header.
+[Sun Nov 24 14:58:11 2024] Validated raw data file exists and is not empty.
+[Sun Nov 24 14:58:11 2024] Processed data saved to ../data/processedData.csv.
+[Sun Nov 24 14:58:11 2024] Running modelTraining.py in the background.
+[Sun Nov 24 15:00:08 2024] Ensured processed data directory exists.
+[Sun Nov 24 15:00:08 2024] Created processed data file with header.
+[Sun Nov 24 15:00:08 2024] Validated raw data file exists and is not empty.
+[Sun Nov 24 15:00:08 2024] Processed data saved to ../data/processedData.csv.
+[Sun Nov 24 15:00:08 2024] Running modelTraining.py in the background.
+[2024-11-24 15:06:47] Model training complete. Accuracy: 100.00%
+[2024-11-24 15:06:47] Classification Report:
+[2024-11-24 15:06:47]               precision    recall  f1-score   support
+
+No Fault (0)       1.00      1.00      1.00        15
+   Fault (1)       1.00      1.00      1.00         5
+
+    accuracy                           1.00        20
+   macro avg       1.00      1.00      1.00        20
+weighted avg       1.00      1.00      1.00        20
+
+[2024-11-24 15:06:47] Trained model has been saved to ../scripts/faultDetectionModel.pkl
+[2024-11-24 15:06:47] Average CPU Usage for Faults (1): 12.93%
+[2024-11-24 15:06:47] Average CPU Usage for Non-Faults (0): 2.53%
+[2024-11-24 15:06:49] Graph saved successfully at ../data/resourceUsageGraph.png
+[2024-11-24 15:06:49] Successfully started generateResourceUsageGraph.py in the background.
+[2024-11-24 15:11:42] Graph saved successfully at ../data/resourceUsageGraph.png
+[Sun Nov 24 15:16:42 2024] Ensured processed data directory exists.
+[Sun Nov 24 15:16:42 2024] Created processed data file with header.
+[Sun Nov 24 15:16:42 2024] Validated raw data file exists and is not empty.
+[Sun Nov 24 15:16:42 2024] Processed data saved to ../data/processedData.csv.
+[Sun Nov 24 15:16:42 2024] Running modelTraining.py in the background.
+[2024-11-24 15:16:43] Model training complete. Accuracy: 100.00%
+[2024-11-24 15:16:43] Classification Report:
+[2024-11-24 15:16:43]               precision    recall  f1-score   support
+
+No Fault (0)       1.00      1.00      1.00        15
+   Fault (1)       1.00      1.00      1.00         5
+
+    accuracy                           1.00        20
+   macro avg       1.00      1.00      1.00        20
+weighted avg       1.00      1.00      1.00        20
+
+[2024-11-24 15:16:43] Trained model has been saved to ../scripts/faultDetectionModel.pkl
+[2024-11-24 15:16:43] Average CPU Usage for Faults (1): 12.93%
+[2024-11-24 15:16:43] Average CPU Usage for Non-Faults (0): 2.53%
+[2024-11-24 15:16:44] Graph saved successfully at ../data/resourceUsageGraph.png
+[2024-11-24 15:16:45] Successfully started generateResourceUsageGraph.py in the background.
+Starting fault prediction... Press Ctrl+C to stop.
+[2024-11-24 03:17:09 PM] No fault detected - CPU Usage: 1.5%
+[2024-11-24 03:18:10 PM] No fault detected - CPU Usage: 2.3%
+[2024-11-24 03:19:18 PM] Subprocess './sendMail.sh' completed successfully. Output:
+Email sent successfully.
+2024-11-24 15:26:26,404 - INFO - Loading processed data...
+2024-11-24 15:26:26,407 - INFO - Data loaded and validated successfully.
+2024-11-24 15:26:26,407 - INFO - Training logistic regression model...
+2024-11-24 15:26:26,411 - INFO - Model training complete. Accuracy: 100.00%
+2024-11-24 15:26:26,411 - INFO - Classification Report:
+2024-11-24 15:26:26,414 - INFO - 
+              precision    recall  f1-score   support
+
+No Fault (0)       1.00      1.00      1.00        15
+   Fault (1)       1.00      1.00      1.00         5
+
+    accuracy                           1.00        20
+   macro avg       1.00      1.00      1.00        20
+weighted avg       1.00      1.00      1.00        20
+
+2024-11-24 15:26:26,414 - INFO - Trained model has been saved to ../scripts/faultDetectionModel.pkl
+2024-11-24 15:26:26,416 - INFO - Average CPU Usage for Faults (1): 12.93%
+2024-11-24 15:26:26,416 - INFO - Average CPU Usage for Non-Faults (0): 2.53%
+[2024-11-24 15:29:00] Model training complete. Accuracy: 100.00%
+[2024-11-24 15:29:00] Classification Report:
+[2024-11-24 15:29:00]               precision    recall  f1-score   support
+
+No Fault (0)       1.00      1.00      1.00        15
+   Fault (1)       1.00      1.00      1.00         5
+
+    accuracy                           1.00        20
+   macro avg       1.00      1.00      1.00        20
+weighted avg       1.00      1.00      1.00        20
+
+[2024-11-24 15:29:00] Trained model has been saved to ../scripts/faultDetectionModel.pkl
+[2024-11-24 15:29:00] Average CPU Usage for Faults (1): 12.93%
+[2024-11-24 15:29:00] Average CPU Usage for Non-Faults (0): 2.53%
+[2024-11-24 15:29:01] Graph saved successfully at ../data/resourceUsageGraph.png
+[2024-11-24 15:29:01] Successfully started generateResourceUsageGraph.py in the background.
