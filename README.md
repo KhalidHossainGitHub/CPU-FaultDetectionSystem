@@ -3,7 +3,9 @@
 The **CPU Fault Detection System** is a proactive fault detection tool designed to monitor CPU performance in real-time, identify potential faults, and enhance system reliability through automation and machine learning techniques. This project integrates core systems programming, machine learning, and automated alert mechanisms to deliver a robust solution for fault management in Linux environments.
 
 <p align="center">
-  <img width="932" alt="image" src="https://github.com/user-attachments/assets/cpu_fault_detection_system.png">
+  <img width="740" alt="image" src="faultDetectionSystem/data/resourceUsageGraph.png">
+  <br>
+  <b>Figure 1: Logistic Regression Graph Based On Specific Dataset</b>
 </p>
 
 ## Project Overview
